@@ -1,0 +1,114 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Product Landing Page</title>
+</head>
+<body>
+  
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="../logo.png" alt="Logo">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features </a> </li>
+        <li><a class="nav-link" href="#howto"> How to use </a></li>
+        <li><a class="nav-link" href="#price"> Pricing </a></li>
+      </ul>
+    </nav>
+  </header>
+    
+    
+  <div class="container">
+    
+    <section id="about">
+      <h1> Natural, brightful, deliciously smelling </h1>
+      <form id="form" action=" https://www.freecodecamp.com/email-submit">
+        <p>Subscribe if you want to know more about Anthocyanin</p>
+        <input id="email" type="email" name="email" placeholder="Your E-mail" required>
+        <p><input id="submit" type="submit" name="Get started" formaction="https://www.freecodecamp.com/email-submit" value="Get started!"></p>
+      </form>
+     </section>
+  </div>
+  
+  <div class="features" id="features">
+    <ul>
+      <li class="feature first-feature">
+       <h2> Original quality </h2>
+       <p class="text"> Anthocyanin is a harmless laminating ion dye with proteins and color absorption technology. There is no ammiak, no chemical reactions. </p>
+      </li>
+      <li class="feature second-feature">
+        <h2> Large selection of colors available</h2>
+       <p class="text"> You can find here any color you want. Natural colors and unique bright shades.</p>
+      </li>
+      <li class="feature third-feature">
+        <h2> Low cost</h2>
+        <p class="text"> Everyone can afford to change color of hair </p>
+      </li>
+    </ul>
+  </div>
+  
+  <section id="howto">
+    <h2> Just watch a video about how to use Anthocyanin!</h2>
+    <iframe id="video" src="https://www.youtube.com/embed/IsoYaH1_U5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+    
+  <section id="price">
+    <h2>Price</h2>
+    <div class="products">
+      <div class="product">
+       <p class="level"> Any color, 110ml </p>
+       <ol>
+        <li>Bla</li>
+        <li>Bla</li>
+        <li>Bla</li>
+       </ol>
+       <h3> 10,99$ </h3>
+       <button class="button" type="submit"> Select</button>
+     </div>
+     <div class="product">
+       <p class="level">Any color, 230ml</p>
+       <ol>
+        <li>Bla</li>
+        <li>Bla</li>
+        <li>Bla</li>
+       </ol>
+       <h3> 18,99$ </h3>
+       <button class="button" type="submit"> Select</button>
+      </div>
+      <div class="product">
+       <p class="level">Two colors, 110ml</p>
+        <ol>
+         <li>Bla</li>
+         <li>Bla</li>
+         <li>Bla</li>
+        </ol>
+        <h3> 16$ </h3>
+        <button class="button" type="submit" value="submit"> Select </button>
+      </div>
+    </div>
+  </section>
+     
+  <footer id="footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, DIY your hair</span>
+    </footer>
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+</body>
+</html>
